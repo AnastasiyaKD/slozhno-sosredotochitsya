@@ -10,3 +10,10 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
+:root.theme-dark {
+  --accent-color: #FF0070;
+  --second-accent-color: #000028;
+  --font-family: 'IBM Plex Mono', sans-serif;
+  
+}
