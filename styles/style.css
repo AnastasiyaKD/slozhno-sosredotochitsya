@@ -346,6 +346,7 @@ outline: 1px solid var(--link-border);
 
 .title__content{
   grid-row: 1/12;
+  max-width: 315px;
 }
 
 .basic__content-columns {
