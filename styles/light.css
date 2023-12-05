@@ -19,15 +19,14 @@
   --title-shadow-color: #FF8DCB;
   --bi: url(../images/cover-image-light.png);
   --link-shadow: #FF8DCB;
-  --link-border: #353430 ;
-  
+  --link-border: #353430;
 }
 
-.theme_light .header__decor {
+.theme_light .header__decor  {
   visibility: hidden;
 }
 
-@media(prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
 :root {
   --bc: #FFF1F7;
   --accent-color: #353430;
@@ -40,8 +39,7 @@
   --link-shadow: #FF8DCB;
   --link-border: #353430 ;
 }
-
-.header__decor {
+.theme_auto .header__decor {
   visibility: hidden;
 }
 }
@@ -51,10 +49,13 @@
     --title-shadow-color: #FF0070;
 }
 }
-
-@media(prefers-color-sсheme: light) and (width >= 1024px) {
-  .header__title {
-    --title-shadow-color: #FF0070;
-    text-shadow: 4px 4px 0 var(--title-shadow-color);
+ 
+@media (prefers-color-sсheme: light) and (width >= 1024px) {
+  :root {
+     --title-shadow-color: #FF0070;
   }
+ /*.theme_auto .header__title{
+ 
+    text-shadow: 4px 4px 0 var(--title-shadow-color);
+  }*/
 }
