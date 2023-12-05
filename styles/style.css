@@ -131,7 +131,7 @@ margin-block-end: 50px;
 .text__content {
   color: var(--text-color);
   padding-block-end: 20px;
-  line-height: 23.4px;
+  line-height: 130%;
 }
 
 .text__content:last-child {
@@ -274,15 +274,11 @@ outline: 1px solid var(--link-border);
   .basic__content-columns {
     display: grid;
     column-gap :20px;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: fit-content(315px) 2fr;
    }
 
    .basic__contet-blocks {
     margin-block-end: 80px;
-   }
-
-   .title__content {
-    inline-size: 30vi;
    }
 
    .picture__content {
