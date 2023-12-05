@@ -233,6 +233,7 @@ outline: 1px solid var(--link-border);
   max-width: 364px;
   }
 
+  
   .title__content{
     grid-row: 1/12;
   }
@@ -272,9 +273,13 @@ outline: 1px solid var(--link-border);
   }
 
   .basic__content-columns {
-    display: grid;
-    column-gap :20px;
-    grid-template-columns: fit-content(315px) 2fr;
+   display: grid;
+   column-gap :20px;
+   grid-template-columns: 1fr 2fr;
+   }
+
+   .title__content{
+    max-width: 236px;
    }
 
    .basic__contet-blocks {
@@ -342,6 +347,10 @@ outline: 1px solid var(--link-border);
 .title__content{
   grid-row: 1/12;
 }
+
+.basic__content-columns {
+  grid-template-columns: fit-content(315px) 2fr;
+ } 
 
 .basic__content-rows{
 display: grid;
