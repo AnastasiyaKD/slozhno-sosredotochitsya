@@ -165,7 +165,7 @@
   object-position: center;
 }
 
-.picture5 {
+.picture-5 {
   inline-size: 100%;
 }
 
@@ -286,25 +286,21 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .picture1 {
+  .picture-1 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 1;
   }
 
-  .picture2 {
+  .picture-2 {
     grid-row: 1 / span 2;
   }
 
-  .picture3 {
+  .picture-3 {
     grid-row: 2 / span 2;
   }
 
-  .picture5 {
+  .picture-5 {
     grid-column: 2 / span 2;
-  }
-
-  .title__footer {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .footer::before {
@@ -315,6 +311,10 @@
   .footer::after {
     top: 20px;
     right: 20px;
+  }
+
+  .title__footer {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
 
