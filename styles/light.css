@@ -25,7 +25,7 @@
   visibility: hidden;
 }
 
-@media ( prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
   :root {
     --bc: #fff1f7;
     --accent-color: #353430;
@@ -39,8 +39,8 @@
     --link-border: #353430;
   }
 
-   .header__decor {
-    visibility: hidden; 
+  .header__decor {
+    visibility: hidden;
   }
 }
 
@@ -50,9 +50,8 @@
   }
 }
 
-@media ( prefers-color-sсheme: light) and (width >= 1024px) {
+@media (prefers-color-sсheme: light) and (width >= 1024px) {
   :root {
     --title-shadow-color: #ff0070;
   }
 }
- 
