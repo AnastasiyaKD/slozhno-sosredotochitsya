@@ -38,8 +38,8 @@
     --link-shadow: #ff8dcb;
     --link-border: #353430;
   }
-  .header__decor {
-    
+
+  .theme_light .header__decor {
       position: absolute;
       inline-size: 1px;
       block-size: 1px;
@@ -56,14 +56,10 @@
     --title-shadow-color: #ff0070;
   }
 }
-/*
+
 @media ( prefers-color-sсheme: light) and (width >= 1024px) {
-  .page .theme_light {
+  :root {
     --title-shadow-color: #ff0070;
   }
-  
- .theme_light .header__title {
-    text-shadow: 4px 4px 0 var(--title-shadow-color);
-  }
 }
-*/
+ 
