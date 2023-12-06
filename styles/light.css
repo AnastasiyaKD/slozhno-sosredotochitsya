@@ -39,7 +39,7 @@
   --link-shadow: #FF8DCB;
   --link-border: #353430 ;
 }
-.theme_auto .header__decor {
+.theme_auto.header__decor {
   visibility: hidden;
 }
 }
@@ -51,11 +51,13 @@
 }
  
 @media (prefers-color-sсheme: light) and (width >= 1024px) {
-  :root {
-     --title-shadow-color: #FF0070;
+.page.theme_auto {
+  --title-shadow-color: #FF0070;
+}
+ /* :root {
+     
   }
- /*.theme_auto .header__title{
- 
+ .theme_auto .header__title {
     text-shadow: 4px 4px 0 var(--title-shadow-color);
   }*/
 }
