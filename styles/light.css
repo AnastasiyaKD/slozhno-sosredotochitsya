@@ -39,15 +39,8 @@
     --link-border: #353430;
   }
 
-  .theme_light .header__decor {
-      position: absolute;
-      inline-size: 1px;
-      block-size: 1px;
-      overflow: hidden;
-      clip: rect(0 0 0 0);
-      clip-path: inset(50%);
-      white-space: nowrap;
-    
+   .header__decor {
+    visibility: hidden; 
   }
 }
 
