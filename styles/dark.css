@@ -11,7 +11,6 @@
   */
 
   --bc: #000028;
-  --font-family: 'IBM Plex Mono', sans-serif;
   --accent-color: #ff0070;
   --text-background-color: #ff0070;
   --title-color: #db00ff;
@@ -21,12 +20,15 @@
   --bi: url(../images/cover-image-dark.png);
   --link-shadow: #ff0070;
   --link-border: #f1b2ce;
+
+  .header__decor {
+    display: block;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bc: #000028;
-    --font-family: 'IBM Plex Mono', sans-serif;
     --accent-color: #ff0070;
     --text-background-color: #ff0070;
     --title-color: #db00ff;
